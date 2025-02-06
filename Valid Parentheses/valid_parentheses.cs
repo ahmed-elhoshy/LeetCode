@@ -40,7 +40,7 @@ public class Program
         //     s = s.Replace("()", "").Replace("[]", "").Replace("{}", "");
         // }
 
-        return s.Length == 0;
+        //return s.Length == 0;
     public static void Main(string[] args)
     {
         string str = "({[]})";

@@ -1,0 +1,17 @@
+In a high-performance database system of n queries, each query has an execution time represented in the array queryTimes.
+
+To optimize the system, the following tuning operation can be applied:
+
+Select all queries with the same even-number execution time, t, and reduce their execution times to t / 2.
+
+Implement a function that calculates the minimum number of tuning operations required to make all query execution times odd.
+
+The function getMinTuningOperations takes the following parameter:
+
+int queryTimes[n]: an array representing the execution times of queries.
+
+The function should return the minimum number of tuning operations needed to ensure all query execution times are odd.
+
+Example
+n = 4
+queryTimes = [2, 6, 8, 16]
